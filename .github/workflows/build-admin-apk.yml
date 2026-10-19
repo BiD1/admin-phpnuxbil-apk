@@ -1,4 +1,4 @@
-name: Build Arneta.ID Admin APK
+name: Build RTR_Admin APK
 
 on:
   push:
@@ -64,6 +64,6 @@ jobs:
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Arneta-Admin-APK
+          name: RTR-Admin-APK
           path: output-apk/*.apk
           retention-days: 30
