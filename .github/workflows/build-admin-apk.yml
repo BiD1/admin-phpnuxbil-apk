@@ -1,4 +1,4 @@
-name: Build Arneta.ID Admin APK
+name: Build RTR_Admin APK
 
 on:
   push:
@@ -51,7 +51,7 @@ jobs:
         run: |
           gradle assembleDebug assembleRelease --stacktrace
 
-      - name: Rename APK Files
+      - name: RTR Network Admin
         run: |
           mkdir -p output-apk
           cp app/build/outputs/apk/debug/app-debug.apk output-apk/Arneta-Admin-v6-Debug.apk
