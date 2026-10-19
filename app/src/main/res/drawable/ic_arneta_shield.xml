@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background Dark Cyber Navy -->
+    <path
+        android:fillColor="#0B0F19"
+        android:pathData="M0,0h108v108h-108z" />
+    <!-- Outer Gold Shield Frame -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M54,12 L88,26 L88,54 C88,76 73,91 54,98 C35,91 20,76 20,54 L20,26 Z" />
+    <!-- Inner Dark Shield Core -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M54,17 L83,29.5 L83,53.5 C83,72.5 70,85.5 54,92 C38,85.5 25,72.5 25,53.5 L25,29.5 Z" />
+    <!-- Wi-Fi Gold Wave 3 (Top) -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M31,44 C43.5,33 64.5,33 77,44 L72.5,49 C62.5,40.5 45.5,40.5 35.5,49 Z" />
+    <!-- Wi-Fi Gold Wave 2 (Middle) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M38.5,53.5 C47,46 61,46 69.5,53.5 L65,58.5 C59,53 49,53 43,58.5 Z" />
+    <!-- Wi-Fi Gold Wave 1 (Inner) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M45.5,63 C50.2,59 57.8,59 62.5,63 L58,68 C55.8,66 52.2,66 50,68 Z" />
+    <!-- Wi-Fi Gold Center Dot -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M54,75 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
+</vector>
